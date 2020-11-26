@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import BookmarksContext from '../BookmarksContext';
 import BookmarkItem from '../BookmarkItem/BookmarkItem';
 import './BookmarkList.css'
+//import { Link } from 'react-router-dom';
 
 class BookmarkList extends Component {
   static proptTypes = {

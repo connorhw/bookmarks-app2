@@ -68,7 +68,7 @@ class AddBookmark extends Component {
     const { error } = this.state
     return (
       <section className='AddBookmark'>
-        <h2>Create a bookmark</h2>
+        <h2>Create a bookmark:</h2>
         <form
           className='AddBookmark__form'
           onSubmit={this.handleSubmit}
